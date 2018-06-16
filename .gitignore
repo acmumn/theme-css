@@ -1,0 +1,6 @@
+# This folder is uploaded to npm.
+/acm/*
+!/acm/.gitkeep
+
+# node
+node_modules

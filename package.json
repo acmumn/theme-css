@@ -1,0 +1,19 @@
+{
+  "name": "theme",
+  "version": "0.1.0",
+  "description": "Theme for ACM-related websites.",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmumn/theme.git"
+  },
+  "author": "Michael Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acmumn/theme/issues"
+  },
+  "homepage": "https://github.com/acmumn/theme#readme"
+}
