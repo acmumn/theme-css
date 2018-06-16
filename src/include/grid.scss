@@ -1,5 +1,43 @@
 /* based on http://simplegrid.io/ */
 
+// Grid system
+$width: 96% !default;
+$gutter: 4% !default;
+$breakpoint-small: 33.75em !default; // 540px
+$breakpoint-med: 45em !default; // 720px
+$breakpoint-large: 60em !default; // 960px
+/* */
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (min-width: $breakpoint-small) {
+        width: 80%;
+    }
+    @media only screen and (min-width: $breakpoint-large) {
+        width: 75%;
+        max-width: 60rem;
+    }
+}
+
+.row {
+    position: relative;
+    width: 100%;
+}
+
+.row [class^="col"] {
+    float: left;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .col-1,
 .col-2,
 .col-3,

@@ -1,5 +1,17 @@
 /* variables.scss */
 
+//
+// Import css
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+//
+// Colors
+$primaryColor: #fec503;
+$textColor: #252525;
+//
+// Fonts
+$primaryFont: "Roboto Slab";
+$primaryFontWeight: 300;
+//
 // Grid system
 $width: 96%;
 $gutter: 4%;
