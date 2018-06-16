@@ -4,7 +4,7 @@
   "description": "Theme for ACM-related websites.",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "true"
+    "build": "sass main.scss:build/acm.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/acmumn/theme/issues"
   },
-  "homepage": "https://github.com/acmumn/theme#readme"
+  "homepage": "https://github.com/acmumn/theme#readme",
+  "devDependencies": {
+    "sass": "^1.6.1"
+  }
 }

@@ -1,7 +1,7 @@
 ACM Website Theme
 =================
 
-This is the theme for ACM-related websites, extracted into a set of SCSS stylesheets for extensibility. Compiled stylesheets (*.css) will be available with tagged releases.
+This is the theme for ACM-related websites, extracted into a set of SCSS stylesheets for extensibility. Compiled stylesheets (*.css) may be available with tagged releases.
 
 Usage
 -----
