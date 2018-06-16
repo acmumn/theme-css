@@ -9,13 +9,13 @@ Usage
 This library can be installed through the `npm` repositories. Use your favorite node package manager client to add this library as one of your dev dependencies. This library should be a dev depedency because sources files aren't required during runtime. If you're using the `npm` client, you can add it using
 
 ```bash
-npm install --save-dev [pending]
+npm install --save-dev git://github.com/acmumn/theme
 ```
 
 Alternatively, for yarn, you can add it using
 
 ```bash
-yarn add -D [pending]
+yarn add -D git://github.com/acmumn/theme
 ```
 
 Once you have the library installed, you can integrate the stylesheets into your current SCSS workflow. The best way is to import `variables.scss` and `theme.scss` into your main SCSS file. To customize the theme, override anything in `variables.scss` before importing `theme.scss` to use the new variables. For example,
