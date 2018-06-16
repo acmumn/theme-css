@@ -5,8 +5,8 @@ $primaryColor: #0182ac !default;
 $textColor: #000000 !default;
 //
 // Fonts
-$primaryFont: "";
-$primaryFontWeight: 300;
+$primaryFont: "" !default;
+$primaryFontWeight: 300 !default;
 //
 // Header
 body {
